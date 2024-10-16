@@ -33,3 +33,32 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Type of memory 
+
+// Stack(premittive type use) and Heap(Non premittive type use)
+
+let myfirstname = "Abhay";
+
+let mysecondname = "Singh";
+mysecondname = "Lucky";
+
+console.log(myfirstname)
+
+
+
+let userOne = {
+    email : "blah123@gmail.com",
+    upi : "user@sbi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "anyone123@gmail.com"
+console.log(userOne)
+console.log(userTwo)

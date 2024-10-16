@@ -7,8 +7,6 @@ console.log(3+3);
 
 console.log("Abhay")
 
-<<<<<<< HEAD
-=======
 
 let name = "Abhay"
 let age = 18
@@ -28,4 +26,3 @@ console.log(typeof undefined) // undefined
 console.log( typeof null) // object
 
 
->>>>>>> cbecdbbed8e09aec1a28244589e6f4b1c136dcc4
