@@ -45,3 +45,44 @@ console.log("B ",myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+
+
+// **********************************************
+
+const Anime = ["One Piece","Bleach","Naruto","Black Clover"]
+const character = ["Lufffy","Ichigo","Naruto","Asta"]
+
+Anime.push("JJK")
+console.log(Anime);
+console.log(Anime[3][1]);
+
+
+// concat is a array which mrege both array but give the value in other Array
+const allAnime = Anime.concat(character)
+console.log(allAnime);
+
+// spend 
+const all_new_Anime = [...Anime, ...character]
+console.log(all_new_Anime)
+
+
+// rarely use
+const anoher_array = [1, 2, 3, [4, 5, 6], [6, 7, [4, 5]]]
+
+const real_another_array = anoher_array.flat(Infinity)
+// not to use infinity mostly use what to what dept we want
+console.log(real_another_array);
+
+
+
+console.log(Array.isArray("Abhay"))
+// this is not array so false
+console.log(Array.from("Abhay"))
+console.log(Array.from({name: "Abhay"})) //is a empty bcz it not prefer the it should in what type of array
+
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3)); //of is to give a set of elemt
