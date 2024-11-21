@@ -115,6 +115,14 @@ const {courseInstructor: instructor} = course
  //.log(courseInstructor);
 console.log(instructor);
 
+
+
+
+
+
+// calling of api not using xml usimg json which is also a object 
+// json :- javascript object notation
+
 // {
 //     "name": "Abhay",
 //     "coursename": "javascipt",
